@@ -14,14 +14,12 @@ const Skills = () => {
             <img src={UIDesign} alt= "UIDesign" className="skillBarImg" />
             <div className="skillBarText">
                 <h2>Web Developer</h2>
-                <p>Demo Text</p>
             </div>
             </div>
             <div className='skillBar'>
             <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
             <div className="skillBarText">
                 <h2>Graphic Designer</h2>
-                <p>Demo Text</p>
             </div>
             </div>
         </div>
