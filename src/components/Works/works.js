@@ -17,7 +17,7 @@ const Works = () => {
             </a>
             <a href="https://github.com/JoseneyJ/TruthIs2" target="_blank" rel="noopener noreferrer">
             <img src={Portfolio1} alt='' className='worksImg'/>
-            </a>cd
+            </a>
         </div>
 
  {/* <button className='workBtn'>View More</button> */}
