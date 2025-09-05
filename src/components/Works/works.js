@@ -15,7 +15,7 @@ const Works = () => {
             </a>
             <a href= "https://joseneyj.github.io/CodeQuiz/" target="_blank" rel="noopener noreferrer"><img src={Portfolio3} alt='' className='worksImg'/>
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/JoseneyJ/TruthIs2" target="_blank" rel="noopener noreferrer">
             <img src={Portfolio1} alt='' className='worksImg'/>
             </a>
         </div>
