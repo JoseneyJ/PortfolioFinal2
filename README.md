@@ -1,7 +1,8 @@
-# Welcome to my portfolio where I showcase my skills and talents looking to fill a full-time position.
+# Welcome to my portfolio!
+Where I showcase my skills and talents looking to fill a full-time position.
 
-## Link to website 
-portfolio-final2-eta.vercel.app
+## Link to website## 
+https://portfolio-final2-eta.vercel.app/
 
 
 
