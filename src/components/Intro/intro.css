@@ -3,20 +3,24 @@
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
-
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18vh;
 }
 
+
 .bg {
-    position: absolute;
+    position: static;
     top: -4rem;
     right: 0;
     z-index:-1;
     object-fit: cover;
-    height:90vh;
+    height: auto;
     flex-wrap: wrap;
-    
+    width: 100%;
+    animation: fadeInUp 2s ease forwards;
 }
 
 .introContent {
@@ -28,6 +32,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation: fadeInUp 2s ease forwards;
 }
 
 .hello {
@@ -66,12 +71,18 @@
 } use this if you use an image in the Resume button */
 
 
-@media screen and (max-width: 480px) {
-    .bg {
-     right: -20vw;
-    }
+@media screen and (min-width: 768px) {
+  #intro {
+    flex-direction: column; /* side-by-side on desktop */
+    justify-content: center;
+  }
+}
 
-    }
+@media screen and (max-width: 767px) {
+  #intro {
+    flex-direction: column; /* stacked on mobile */
+  }
+}
 
 .nav__button {
 
@@ -83,3 +94,16 @@
     cursor: pointer;
 
 }
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
