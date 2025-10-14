@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className= "footer">
-        Copyright &#169; 2025 Joseney Jean Pierre. All rights received.
+        Copyright &#169; 2025 Joseney Jean Pierre. All rights reserved.
     </footer>
   );
 }
